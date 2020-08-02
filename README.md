@@ -12,7 +12,7 @@ The Columns I had in the data were :
 * **Recommended_IND** : 1/0 , It's whether they will recommend the same item to someone else or not?.
 * **Pos_Feedback_Count** : It's the number of positive reviews given to different items by a certain buyer.
 * **Division_Name , Department_Name, Class_name** : All these Columns differentiate between different items and give us the category to which they belong.
-* **Rating_Class** : Good/Bad. A column that I added which was to be predicted.
+* **Rating_Class** : Good/Bad. A column that I added which was to be predicted. It is based on the "Rating" column which had Rating on the scale of 1-5. (Good-4,5; Bad-1,2,3)
 
 I deleted all the entries with **null** values of *Review_Text* as our analysis totally depends on that.
 
@@ -29,9 +29,30 @@ I deleted all the entries with **null** values of *Review_Text* as our analysis 
 
 
 ## Exploratory Data Analysis(ETA) :
+  1. Category of items people of specific class Range Bought:
+   
+   As the heading implies it shows the Variety of items bought by people of certain age group.
+   ![Agewise Category Shopping](https://github.com/Siddharthm10/Sentiment-Analysis-e-commerce/blob/master/Images/Age%20Trends%201%20Category.png)
+    
 
-![Words Used in Positive Reviews](https://github.com/Siddharthm10/Sentiment-Analysis-e-commerce/blob/master/Images/Positive.png)
+  1. Rating-Count by buyers :
+   Here, we can see that the data we have has mostly 5 rating, then 4 and so on. So its good for us to identify the good words as some reviews with 3 rating might have some good and bad comments which may cause confusion for machine.
+   ![Rating-Count by Buyers](https://github.com/Siddharthm10/Sentiment-Analysis-e-commerce/blob/master/Images/Rating%20Count.png)
+    
+  1. Good V/s Bad Rating Count : 
+   This shows the Rating count Good V/S Bad.
+   ![Count](https://github.com/Siddharthm10/Sentiment-Analysis-e-commerce/blob/master/Images/Good%20vs%20Bad.png)
+    
+  1. Clothing Id Count : 
+   It shows us the no. of reviews for certain clothin item. 
+   ![Clothing Id Count](https://github.com/Siddharthm10/Sentiment-Analysis-e-commerce/blob/master/Images/Clothing%20Id%20counts.png)
+    
+  1. Positive Vs Negative Feedback Counts Age-Wise:
+   It's the Age-wise Feedback Plot.  
+   ![Count](https://github.com/Siddharthm10/Sentiment-Analysis-e-commerce/blob/master/Images/Age%20Trends%202%20posvsneg.png)
+  
+  1. Words mostly used in Positive Reviews:
+    ![Words Used in Positive Reviews](https://github.com/Siddharthm10/Sentiment-Analysis-e-commerce/blob/master/Images/Positive.png)
 
-
-
-![Words Used in Negative Reviews](https://github.com/Siddharthm10/Sentiment-Analysis-e-commerce/blob/master/Images/Negative.png)
+  1. Words mostly used in Negative Reviews:
+    ![Words Used in Negative Reviews](https://github.com/Siddharthm10/Sentiment-Analysis-e-commerce/blob/master/Images/Negative.png)  
