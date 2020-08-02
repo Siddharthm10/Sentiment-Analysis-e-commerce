@@ -1,4 +1,4 @@
-# Sentiment-Analysis-e-commerce
+# Sentiment Analysis For Female Clothing
 During my internship with the Microsoft Technology Associate (MTA) Program, I made this as my Major Project.
 
 ## Gathering Data:
@@ -16,7 +16,7 @@ The Columns I had in the data were :
 
 I deleted all the entries with **null** values of *Review_Text* as our analysis totally depends on that.
 
-##### Text Pre-Processing :
+### Text Pre-Processing :
   The next step was to do text pre-processing. So I followed the following steps :
   1. **Lowercasing** : As same words might be differentiated because of the formating that they are in.(UpperCase/LowerCase).
   1. **Removing Punctuation** : As Punctuation have no role in Sentiment Analysis. And they also add complexities to the implementation of the model.
@@ -27,7 +27,8 @@ I deleted all the entries with **null** values of *Review_Text* as our analysis 
   1. **Lemmatization** : It usually refers to doing things properly with the use of a vocabulary and morphological analysis of words, normally aiming to remove inflectional endings only and to return the base or dictionary form of a word, which is known as the lemma .
   1. **Removing Words without Meaning** : Words like "Soooooo", "veryyyy", etc, were to be removed as even a change in a single "o" can make it a new word for the model and thus they have gotta be removed or spell-checked. Spell-checking is very resource intensive process and takes a lot of time. So I chose to remove those words.
 
-## Exploratory Data Analysis :
+
+## Exploratory Data Analysis(ETA) :
 
 ![Words Used in Positive Reviews](https://github.com/Siddharthm10/Sentiment-Analysis-e-commerce/blob/master/Images/Positive.png)
 
