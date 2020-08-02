@@ -28,7 +28,7 @@ I deleted all the entries with **null** values of *Review_Text* as our analysis 
   1. **Removing Words without Meaning** : Words like "Soooooo", "veryyyy", etc, were to be removed as even a change in a single "o" can make it a new word for the model and thus they have gotta be removed or spell-checked. Spell-checking is very resource intensive process and takes a lot of time. So I chose to remove those words.
 
 
-## Exploratory Data Analysis(ETA) :
+## Exploratory Data Analysis(EDA) :
   1. Category of items people of specific class Range Bought:
    
    As the heading implies it shows the Variety of items bought by people of certain age group.
